@@ -1,0 +1,35 @@
+.design {
+  background: url('../assets/img/jpg/screen6.jpg') top center / contain no-repeat, black;
+  padding-bottom: 114px;
+
+  &__title {
+  }
+
+  &__subtitle {
+    margin-top: 10px;
+  }
+
+  &__text {
+    margin-top: 34px;
+    text-align: center;
+  }
+
+  &__img {
+    display: block;
+    margin: 87px auto 0;  
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    width: 100%;
+    margin: -100px auto 0;
+  }
+
+  &__btn {
+    display: block;
+    margin: 85px auto 0;
+  }
+}
+

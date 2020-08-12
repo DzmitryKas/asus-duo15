@@ -1,0 +1,43 @@
+.display {
+  background: black;
+
+  &__title {    
+  }
+
+  &__subtitle {
+    margin-top: 10px;
+  }
+
+  &__text {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  &__list {
+  }
+
+  .list__bottom {
+    max-width: 500px;
+    width: 100%;
+    margin: 47px auto 0;
+  }
+}
+.list {
+  &__top {
+  }
+
+  &__item {
+  }
+
+  &__title {
+  }
+
+  &__subtitle {
+  }
+
+  &__bottom {
+  }
+
+  &__img {
+  }
+}

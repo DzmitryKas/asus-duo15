@@ -1,0 +1,82 @@
+.config {
+  background: url('../assets/img/jpg/screen4.jpg') bottom center / contain no-repeat, black;
+  padding-bottom: 80px;
+
+  @include mobile {
+    padding-bottom: 30px;
+  }
+
+  &__title {
+  }
+
+  &__subtitle {
+    margin-top: 10px;
+  }
+
+  &__text {
+    margin-top: 34px;
+    text-align: center;
+  }
+
+  &__list {
+    margin-top: 57px;
+  }
+
+  &__img {
+    display: block;
+    width: 897px;
+    height: auto;
+    margin: 80px auto 0;
+  }
+}
+
+.list {  
+  max-width: 900px;
+  width: 100%;
+  margin: 74px auto 0;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__bottom {
+    margin-top: 47px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    margin-top: 4px;
+    font-family: $xolonium;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    color: #3AA1FF;
+  }
+
+  &__subtitle {
+    font-family: $xolonium;
+    margin-top: 2px;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  &__top {
+    font-family: $xolonium;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}
